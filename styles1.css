@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Moonrocks&display=swap');
+
+body{
+    background-color: beige;
+    font-color:;
+  }
+  #front1 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    display: inline-flex;
+    font-style: italic;
+    font-size: x-large;
+  }
+  #front2 {
+    background-color: lightgrey;
+    width:200px;
+    border: 15px solid rgb(128, 0, 0);
+    padding: 50px;
+    margin: 20px;
+    display: inline-flex;
+    font-style: italic;
+    font-size: x-large;
+  }
+  #front3 {
+    background-color: lightgrey;
+    width: 200px;
+    border: 15px solid rgb(0, 9, 128);
+    padding: 50px;
+    margin: 20px;
+    display: inline-flexbox;
+    font-style: italic;
+    font-size: x-large;
+  }
+
+  
+input {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #d2d2d2;
+  outline: none;
+  margin-top: 8px;
+  padding: 0 10px;
+  display: inline-flex;
+  font-size: large;
+}
+
+
+.input1 {
+  width: 50%;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid #d2d2d2;
+  outline: ;
+  margin-top: 8px;
+  padding: 10px;
+  justify-content: space-between;
+  text-align: center;
+}

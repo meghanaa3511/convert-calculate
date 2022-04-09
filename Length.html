@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div>
+        <h1>Length Converter</h1>
+    </div>
+    <p>
+    <div class="container">
+        <div class="cf">
+            <label>Kilometers</label>
+            <input id="inputKm" type="number" placeholder="Kilometers" oninput="KmtoMConverter(this.value)"
+                onchange="KmtoMConverter(this.value)">
+            </p>
+            
+                <p>Meters: <div class="box"><span class="meters"></span></p>
+            </div>
+        </div>
+    </div>
+    <p>
+    <div class="container">
+        <div class="cf">
+            <label>Meters</label>
+            <input id="inputm" type="number" placeholder="meters" oninput="MtoKmConverter(this.value)"
+                onchange="MtoKmConverter(this.value)">
+            </p>
+            <p>Kilometers:<div class="box"> <span class="Kilometers"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="Length.js"></script>
+</body>
+
+</html>
